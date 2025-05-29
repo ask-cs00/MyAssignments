@@ -1,15 +1,11 @@
 //oddoreven
-function isOddOrEven(a){
-
-  if(a%2==0)
-  {
-    console.log("Number is even");
-  } else {
-    console.log("Number is odd")
-  }}
-
+function isOddOrEven(num){
+   let result;
+   result = (num%2==0)? console.log("number is even"):console.log("number is odd");
+}
 isOddOrEven(4);
 isOddOrEven(121);
+isOddOrEven(256);
 
 //NumType
 function numType(num){
